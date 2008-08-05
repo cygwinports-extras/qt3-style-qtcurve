@@ -1,0 +1,15 @@
+inherit cmake
+
+DESCRIPTION="Qt3 QtCurve theme engine"
+HOMEPAGE="http://www.kde-look.org/content/show.php?content=40492"
+SRC_URI="http://home.freeuk.com/cpdrummond/QtCurve-KDE3-${PV}.tar.bz2"
+
+SRC_DIR="QtCurve-KDE3-${PV}"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	cp -r ${D}/lib ${D}/usr/
+	rm -fr ${D}/lib
+}

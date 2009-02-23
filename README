@@ -1,0 +1,77 @@
+qt3-style-qtcurve
+------------------------------------------
+A matching set of widget theme engines for GTK2, Qt3, and Qt4.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  kdelibs4-3.5.10-1
+  libqt3-3.3.8b-2
+  libX11_6-1.1.5-2
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080624-2
+  cmake-2.6.2-3
+  cygport-0.4.2-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  pkg-config-0.23a-2
+
+Canonical website:
+  http://www.kde-look.org/content/show.php?content=40492
+
+Canonical download:
+  http://home.freeuk.com/cpdrummond/
+
+-------------------------------------------
+
+Build instructions:
+  unpack qt3-style-qtcurve-0.61.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./qt3-style-qtcurve-0.61.1-X.cygport all
+
+This will create:
+  /usr/src/qt3-style-qtcurve-0.61.1-X-src.tar.bz2
+  /usr/src/qt3-style-qtcurve-0.61.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/kde3/kstyle_qtcurve_config.dll
+  /usr/lib/kde3/kstyle_qtcurve_config.la
+  /usr/lib/kde3/plugins/styles/qtcurve.dll
+  /usr/share/apps/QtCurve/Clean.qtcurve
+  /usr/share/apps/QtCurve/Clear.qtcurve
+  /usr/share/apps/QtCurve/Curve.qtcurve
+  /usr/share/apps/QtCurve/Dull_Glass.qtcurve
+  /usr/share/apps/QtCurve/Glass.qtcurve
+  /usr/share/apps/QtCurve/Glow.qtcurve
+  /usr/share/apps/QtCurve/Human.qtcurve
+  /usr/share/apps/QtCurve/Inverted.qtcurve
+  /usr/share/apps/QtCurve/Murrine.qtcurve
+  /usr/share/apps/QtCurve/Plain.qtcurve
+  /usr/share/apps/QtCurve/Plastic.qtcurve
+  /usr/share/apps/QtCurve/Shiny_Glass.qtcurve
+  /usr/share/apps/QtCurve/Silk.qtcurve
+  /usr/share/apps/kdisplay/color-schemes/QtCurve.kcsrc
+  /usr/share/apps/kstyle/themes/qtc_klearlooks.themerc
+  /usr/share/apps/kstyle/themes/qtcurve.themerc
+  /usr/share/doc/qt3-style-qtcurve-0.61.1/AUTHORS
+  /usr/share/doc/qt3-style-qtcurve-0.61.1/COPYING
+  /usr/share/doc/qt3-style-qtcurve-0.61.1/ChangeLog
+  /usr/share/doc/qt3-style-qtcurve-0.61.1/README
+  /usr/share/doc/qt3-style-qtcurve-0.61.1/TODO
+
+------------------
+
+Port Notes:
+
+----- version 0.61.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

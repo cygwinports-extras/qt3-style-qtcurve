@@ -3,13 +3,9 @@ inherit cmake
 DESCRIPTION="Qt3 QtCurve theme engine"
 HOMEPAGE="http://www.kde-look.org/content/show.php?content=40492"
 SRC_URI="http://home.freeuk.com/cpdrummond/QtCurve-KDE3-${PV}.tar.bz2"
+PATCH_URI="0.59.5-cmake.patch"
 
 SRC_DIR="QtCurve-KDE3-${PV}"
 
-src_install() {
-	cd ${B}
-	cyginstall
-
-	cp -r ${D}/lib ${D}/usr/
-	rm -fr ${D}/lib
-}
+# make sure that libdir is /usr/lib, not /lib
+CYGCMAKE_ARGS="-DKDE3_KDECORE_LIBRARY=/usr/lib/libkdecore.dll.a"

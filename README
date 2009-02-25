@@ -26,15 +26,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack qt3-style-qtcurve-0.61.1-X-src.tar.bz2
+  unpack qt3-style-qtcurve-0.61.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./qt3-style-qtcurve-0.61.1-X.cygport all
+  cygport ./qt3-style-qtcurve-0.61.2-X.cygport all
 
 This will create:
-  /usr/src/qt3-style-qtcurve-0.61.1-X-src.tar.bz2
-  /usr/src/qt3-style-qtcurve-0.61.1-X.tar.bz2
+  /usr/src/qt3-style-qtcurve-0.61.2-X-src.tar.bz2
+  /usr/src/qt3-style-qtcurve-0.61.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -59,17 +59,17 @@ Files included in the binary package:
   /usr/share/apps/kdisplay/color-schemes/QtCurve.kcsrc
   /usr/share/apps/kstyle/themes/qtc_klearlooks.themerc
   /usr/share/apps/kstyle/themes/qtcurve.themerc
-  /usr/share/doc/qt3-style-qtcurve-0.61.1/AUTHORS
-  /usr/share/doc/qt3-style-qtcurve-0.61.1/COPYING
-  /usr/share/doc/qt3-style-qtcurve-0.61.1/ChangeLog
-  /usr/share/doc/qt3-style-qtcurve-0.61.1/README
-  /usr/share/doc/qt3-style-qtcurve-0.61.1/TODO
+  /usr/share/doc/qt3-style-qtcurve-0.61.2/AUTHORS
+  /usr/share/doc/qt3-style-qtcurve-0.61.2/COPYING
+  /usr/share/doc/qt3-style-qtcurve-0.61.2/ChangeLog
+  /usr/share/doc/qt3-style-qtcurve-0.61.2/README
+  /usr/share/doc/qt3-style-qtcurve-0.61.2/TODO
 
 ------------------
 
 Port Notes:
 
------ version 0.61.1-1 -----
+----- version 0.61.2-1 -----
 Initial release for Cygwin.
 
 

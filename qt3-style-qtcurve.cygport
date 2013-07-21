@@ -1,0 +1,15 @@
+inherit qt3 cmake
+
+NAME="qt3-style-qtcurve"
+VERSION=1.8.5
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="Qt3 QtCurve theme engine"
+DESCRIPTION="A matching set of widget theme engines for GTK2, Qt3, and Qt4."
+HOMEPAGE="http://www.kde-look.org/content/show.php?content=40492"
+SRC_URI="http://craigd.wikispaces.com/file/view/QtCurve-KDE3-${VERSION}.tar.bz2"
+
+SRC_DIR="QtCurve-KDE3-${VERSION}"
+
+CYGCMAKE_ARGS="-DQTC_QT_ONLY=ON -DQT_PLUGINS_DIR=${QT3_PLUGINSDIR}"
+

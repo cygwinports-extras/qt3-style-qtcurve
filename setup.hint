@@ -1,4 +1,0 @@
-category: KDE
-requires: libgcc1 libkdecore4 libqt3 libstdc++6 libX11_6
-sdesc: "Qt3 QtCurve theme engine"
-ldesc: "A matching set of widget theme engines for GTK2, Qt3, and Qt4."
